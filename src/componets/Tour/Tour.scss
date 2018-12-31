@@ -4,13 +4,19 @@
     background: $mainGrey;
     border-radius: 0.8rem;
     margin: 1rem 0;
+    transition: all 0.3s linear;
 
+
+}
+.tour:hover{
+    box-shadow: 2px 5px 10px;
 }
 .tour img{
     width: 100%;
     border-top: 0.8rem;
     border-top-right-radius: 0.8rem;
     display: block;
+    
 }
 .img-container{
     position: relative;
